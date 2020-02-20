@@ -37,7 +37,7 @@ class Artist
       @@all.find {|artsist| artist.name == name} 
     end 
     
-    def print_songs()
+    def print_songs
     song.each {|song| puts song}
     end 
     
