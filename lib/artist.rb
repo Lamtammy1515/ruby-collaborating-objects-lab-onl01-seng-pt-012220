@@ -39,7 +39,7 @@ class Artist
     end
     
     def self.find(name)
-      
+      @@all.find
     end 
     
     def print_songs()
