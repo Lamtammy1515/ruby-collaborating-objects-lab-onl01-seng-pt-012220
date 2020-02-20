@@ -15,6 +15,7 @@ class Artist
     end
     
     def songs 
+      Songs.all.find_all
     
     def save 
       @@all << self 
