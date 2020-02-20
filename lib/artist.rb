@@ -16,7 +16,9 @@ class Artist
     
     def songs 
       Song.all.find_all do |song| 
-        
+        song.artist == self
+      end 
+    end 
     
     def save 
       @@all << self 
