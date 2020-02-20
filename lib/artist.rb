@@ -29,9 +29,7 @@ class Artist
     end 
     
     def self.create(name)
-    artist = self.new(name)
-    @@all << artist 
-    artist 
+    new_artist = Artist.new 
     end
     
     def self.find(name)
